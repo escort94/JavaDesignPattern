@@ -1,0 +1,17 @@
+
+public class TestRobotBuilder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		RobotBuilder oldStyleRobot = new OldRobotBuilder();
+		
+		RobotEngineer robotEngineer = new RobotEngineer(oldStyleRobot);
+		
+		robotEngineer.makeRobot();
+		
+		
+		
+	}
+
+}

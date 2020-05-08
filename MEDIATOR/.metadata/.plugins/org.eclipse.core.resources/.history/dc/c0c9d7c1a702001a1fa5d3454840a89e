@@ -1,0 +1,13 @@
+
+public abstract class Colleague {
+
+	private Mediator mediator;
+	private int colleagueCode;
+	public Colleague(Mediator mediator) {
+		super();
+		this.mediator = mediator;
+		mediator.addColleague(this);
+	}
+	
+	
+}

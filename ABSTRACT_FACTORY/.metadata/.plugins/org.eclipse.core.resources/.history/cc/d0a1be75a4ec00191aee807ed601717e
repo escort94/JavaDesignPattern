@@ -1,0 +1,4 @@
+
+public class UFOShipBuilding extends EnemyShipBuilding {
+
+}

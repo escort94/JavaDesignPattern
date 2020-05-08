@@ -1,0 +1,7 @@
+
+public interface Visitor {
+
+	public double visito(Liquor liquorItem);
+	public double visito(Tobacco tobaccoItem);
+	public double visito(Necessity necessityItem);
+}

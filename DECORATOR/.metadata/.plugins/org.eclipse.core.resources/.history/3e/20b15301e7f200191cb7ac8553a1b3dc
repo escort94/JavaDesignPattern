@@ -1,0 +1,23 @@
+
+public class ThreeCheesePizza implements Pizza {
+
+	private String description = "Mozzarella, Fontina, Parmesan Cheese Pizza";
+
+	private double cost = 10.50;
+	
+	public void setDescription(String newDescription) {
+		description = newDescription;
+	}
+	@Override
+	public String getDescription() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public double getCost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

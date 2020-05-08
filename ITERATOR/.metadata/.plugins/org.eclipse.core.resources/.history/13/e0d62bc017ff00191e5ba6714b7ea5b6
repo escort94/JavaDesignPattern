@@ -1,0 +1,10 @@
+
+public class DiscJockey {
+	SongsOfThe70s songs70s;
+	SongsOfThe80s songs80s;
+	SongsOfThe90s songs90s;
+	
+	SongIterator iter70sSongs;
+	SongIterator iter80sSongs;
+	SongIterator iter90sSongs;
+}

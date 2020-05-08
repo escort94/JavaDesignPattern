@@ -1,0 +1,15 @@
+import javax.swing.JFrame;
+
+public class FlyWeightTest extends JFrame {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	JButton startDrawing;
+	
+	int windowWidth = 1750;
+	int windwHeight = 1000;
+
+}

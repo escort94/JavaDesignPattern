@@ -1,0 +1,11 @@
+
+public class VisitorTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		TaxVisitor taxCalc = new TaxVisitor();
+		TaxHolidayVisitor taxHolidayCalc = new TaxHolidayVisitor();
+	}
+
+}

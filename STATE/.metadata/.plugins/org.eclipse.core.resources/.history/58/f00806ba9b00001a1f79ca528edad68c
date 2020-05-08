@@ -1,0 +1,15 @@
+
+public class ATMMachine {
+
+	ATMState hasCard;
+	ATMState noCard;
+	ATMState hasCorrectPin;
+	ATMState atmOutOfMoney;
+	
+	ATMState atmState;
+	
+	int chashInMachine = 2000;
+	boolean correctPinEntered= false;
+	
+	
+}

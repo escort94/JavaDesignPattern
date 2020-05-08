@@ -1,0 +1,30 @@
+import java.awt.Color;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class FlyWeightTest extends JFrame {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	JButton startDrawing;
+	
+	int windowWidth = 1750;
+	int windowHeight = 1000;
+
+	Color[] shapeColor = {Color.orange, Color.red, Color.yellow,
+			            Color.blue, Color.pink, Color.cyan, Color.magenta,
+			            Color.black, Color.gray};
+	
+	public static void main (String[] args) {
+		new FlyWeightTest();
+	}
+
+	public FlyWeightTest() {
+		this.setSize(windowWidth, windowHeight);
+		this.setLocationRelativeTo(null)
+	}
+}

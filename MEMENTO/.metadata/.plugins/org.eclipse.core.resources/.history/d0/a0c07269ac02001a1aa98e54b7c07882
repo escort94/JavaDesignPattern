@@ -1,0 +1,29 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+@SuppressWarnings("serial")
+public class TestMemento extends JFrame {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		new TestMemento();
+	}
+
+	private JButton saveBut, undoBut, redoBut;
+	
+	private JTextArea theArticle = new JTextArea(40, 60);
+	
+	Caretaker caretaker = new Caretaker();
+	
+	Originator originator = new Originator();
+	
+	int saveFiles = 0, currentArticle = 0;
+	
+	public TestMemento() {
+		
+		this.setSize(750, 780);
+		this.setTitle("Memento Design Patten");
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
+	}
+}

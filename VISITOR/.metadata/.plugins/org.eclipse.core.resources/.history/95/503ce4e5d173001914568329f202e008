@@ -1,0 +1,10 @@
+
+public class Liquor implements Visitor {
+
+	@Override
+	public double visito(Liquor liquorItem) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

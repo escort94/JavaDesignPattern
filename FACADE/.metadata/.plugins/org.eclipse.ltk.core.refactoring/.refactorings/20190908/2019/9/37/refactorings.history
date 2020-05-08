@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;WelcomToBank&apos; to &apos;WelcomeToBank&apos;&#x0D;&#x0A;- Original project: &apos;20190908&apos;&#x0D;&#x0A;- Original element: &apos;WelcomToBank&apos;&#x0D;&#x0A;- Renamed element: &apos;WelcomeToBank&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;WelcomToBank&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{WelcomToBank.java[WelcomToBank" matchStrategy="1" name="WelcomeToBank" qualified="false" references="true" similarDeclarations="false" stamp="1567951388790" textual="false" version="1.0"/>
+</session>

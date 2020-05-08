@@ -1,0 +1,23 @@
+
+public class ItalianHoagie {
+
+	String[] meatUsed = { "Salami", "Pepperoni", "Capicola Ham" };
+	String[] cheeseUsed = { "Provolone" };
+	String[] veggiesUsed = { "Lettuce", "Tomatoes", "Onions", "Sweet Peppers" };
+	String[] condimentsUsed = { "Oil", "Vinegar" };
+
+	public void addMeat() {
+		System.out.println("Adding the Meat: ");
+		
+		for (String meat : meatUsed) {
+			System.out.println(meat + " ");
+		}
+	}
+	
+	public void addCheese() {
+		System.out.println("Adding the Cheese: ");
+		for(String cheese : cheeseUsed) {
+			System.out.println(cheese + " ");
+		}
+	}
+}

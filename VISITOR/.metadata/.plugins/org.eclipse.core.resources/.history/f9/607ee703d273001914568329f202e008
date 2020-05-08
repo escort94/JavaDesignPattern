@@ -1,0 +1,4 @@
+
+public class Liquor implements Visitable {
+
+}

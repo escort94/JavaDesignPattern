@@ -1,0 +1,34 @@
+import java.text.DecimalFormat;
+
+public class TaxVisitor implements Visitor {
+
+
+	DecimalFormat df = new DecimalFormat("#.##");
+	
+	
+	public TaxVisitor() {
+	
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double visito(Liquor liquorItem) {
+		// TODO Auto-generated method stub
+		System.out.println("Liquor Item: Price with Tax");
+		return Double.parseDouble(df.format((liquorItem.getPrice() * .18)) + liquorItem.getPrice()));
+		return 0;
+	}
+
+	@Override
+	public double visito(Tobacco tobaccoItem) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double visito(Necessity necessityItem) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

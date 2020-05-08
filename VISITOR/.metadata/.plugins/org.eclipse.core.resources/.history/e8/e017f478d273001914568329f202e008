@@ -1,0 +1,10 @@
+
+public class Tobacco implements Visitable {
+
+	@Override
+	public double accept(Visitor visitor) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

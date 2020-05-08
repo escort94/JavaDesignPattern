@@ -1,0 +1,42 @@
+
+public class ATMMachine implements GetATMData{
+
+	ATMState hasCard;
+	ATMState noCard;
+	ATMState hasCorrectPin;
+	ATMState noCash;
+	ATMState atmState;
+	
+	int cashInMachine = 2000;
+	public boolean correctPinEntered = false;
+	
+	public ATMState getYesCardState() {return hasCard;}
+	public ATMState getNoCardState() {return noCard;}
+	public ATMState getHasPin() {return hasCorrectPin;}
+	public ATMState getNoCashState() { return noCash;}
+
+	public ATMMachine() {
+		super();
+		this.hasCard = new HasCard(this);
+		this.noCard = new NoCard(this);
+		this.hasCorrectPin = new HasPin(this);
+		this.noCash = new NoCash(this);
+		
+		atmState = noCard;
+		if(cashInMachine <=0 ) {
+			atmState = noCash;
+		}
+	}
+	@Override
+	public ATMState getATMState() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int getCashInMachine() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

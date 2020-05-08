@@ -1,0 +1,12 @@
+
+public class UFOEnemyShip extends EnemyShip {
+
+	EnemyShipFactory shipFactory;
+	
+	@Override
+	void makeShip() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
