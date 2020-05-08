@@ -41,17 +41,17 @@ public class StockGrabber implements Subject {
 		notifiyObserver();
 	}
 
-	public void setIbmPrice(double ibmPrice) {
+	public void setIBMPrice(double ibmPrice) {
 		this.ibmPrice = ibmPrice;
 		notifiyObserver();
 	}
 
-	public void setAaplPrice(double aaplPrice) {
+	public void setAAPLPrice(double aaplPrice) {
 		this.aaplPrice = aaplPrice;
 		notifiyObserver();
 	}
 
-	public void setGoogPrice(double googPrice) {
+	public void setGOOGPrice(double googPrice) {
 		this.googPrice = googPrice;
 		notifiyObserver();
 	}
